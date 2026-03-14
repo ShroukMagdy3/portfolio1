@@ -1,0 +1,52 @@
+.navbar{
+  margin-top: 0;
+  padding-top: 0;
+}
+body {
+  font-family: 'IBM Plex Mono', monospace;
+
+}
+
+.navbar-collapse{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+.navbar-nav .nav-link{
+  margin-right:40px;
+
+}
+
+section .btn-success{
+    border :2px solid #62BA1B;
+    padding:20px 64px;
+    background-color: #3F8E00;
+
+}
+.content{
+    width: 45%;
+}
+span{
+    border-radius: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+  width:auto;
+}
+
+ button i {
+  padding: 3px 4px;
+ }
+
+ @media (min-width: 992px){
+
+.carousel-control-prev{
+  left: -60px;
+}
+
+.carousel-control-next{
+  right: -60px;
+}
+
+}
