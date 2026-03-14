@@ -18,8 +18,7 @@ portfolio1/
 │
 ├── index.html
 │
-├── css/
-│   └── style.css
+├── style.css
 │
 ├── images/
 │
